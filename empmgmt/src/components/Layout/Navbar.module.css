@@ -1,0 +1,39 @@
+.container{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;    
+   
+}
+
+.container button{
+    border: none;
+    font-size: 1.3rem;
+}
+
+.addwork{
+    display:flex;
+    width: 50%;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.workboard{
+    display:flex;
+    width:50%;
+    padding:10px;
+    justify-content: center;
+}
+
+.active{
+    color:Black;
+    background-color: #ccc;
+}
+
+.container button:active{
+    outline: none;
+    border: none;
+  
+}
+

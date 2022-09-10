@@ -1,0 +1,120 @@
+form {
+    margin: 2rem auto;
+    max-width: 40rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  form header{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color:#0076bb;
+  }
+  .form-control {
+    margin: 0.5rem 0;
+
+  }
+
+  .mandatory{
+    color:red;
+  }
+
+  .form-control.invalid input{
+    border-color:  red;
+    outline:none;
+  }
+  .form-control.invalid label{
+    color:  red;
+  }
+
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+select {
+  display: block;
+  width: 100%;
+  font: inherit;
+  margin-top: 0.5rem;
+  border: 1px solid #000;
+}
+
+select {
+    width: auto;
+  }
+
+  input[type='checkbox'],
+  input[type='radio'] {
+    display: inline-block;
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  input[type='checkbox'] + label,
+  input[type='radio'] + label {
+    font-weight: normal;
+  }
+
+  button {
+    font: inherit;
+    border: 1px solid #0076bb;
+    background-color: #0076bb;
+    color: white;
+    cursor: pointer;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+  }
+  
+  button:hover,
+  button:active {
+    border-color: #002350;
+    background-color: #589df8;
+  }
+
+  .actionBtnDiv{
+        display: flex;
+        justify-content: flex-end;
+        gap:2rem;
+        padding:5px;
+  }
+
+  .modalHeader{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    border-bottom: 1px solid #0076bb;
+    margin:0;
+  }
+
+  .modalBody{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+  }
+
+  .modalActions {
+    text-align: right;
+  }
+
+  .modalActions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #2094e1;
+    border: 1px solid #2094e1;
+    color:#fff;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+
+  .modalActions button:hover,
+  .modalActions button:active{
+    background-color: #51b3ec;
+    color:#fff;
+    border: 1px solid#51b3ec;
+  }
+

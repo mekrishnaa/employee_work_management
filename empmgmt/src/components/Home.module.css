@@ -1,0 +1,46 @@
+
+  .container{
+    width:100vw;
+    height:84vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("../../src/assets/HomeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.card {
+    margin: 2rem auto;
+    width: 20rem;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 3rem 2rem;
+    background-color: #D2D1D8;
+  }
+
+  .card:hover{
+    box-shadow: 0 12px 18px rgba(0, 120, 255, 0.75);
+    transition: box-shadow 0.5s ease-in-out;
+  }
+
+  .card button{
+    padding:1rem;
+    border-radius: 12px;
+    background-color: rgb(72, 146, 250);
+    scale:1;
+    transition: scale 0.5s ease-in;
+  }
+
+  .card button:hover{
+    scale:1.2;
+    transition: scale 0.5s ease-out;
+  }
+
+  .card button:active{
+    scale:0.8;
+    transition: scale 0.5s ease-out;
+  }
